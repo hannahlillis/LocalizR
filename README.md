@@ -1,8 +1,9 @@
-# LocalizR!
+# LocalizR
 
 <img align="right" src="https://s18.postimg.cc/tdute22rt/Screen_Shot_2018-04-16_at_12.43.59.png" width="450"/>
 
-Welcome to the repo for our final project at Makers Academy! Our application is an interactive game that takes the user on a language-learning journey.
+For our final project at Makers Academy, we built an application using the MERN stack, which allows the user to play language-learning quizzes. The quizzes are designed to replicate simple scenarios which the user may find themselves in during their travels (e.g. ordering in a restaurant)
+
 
 __DESIGNED BY__:
 - Joshua Holloway
@@ -11,9 +12,9 @@ __DESIGNED BY__:
 - Magyar-Hunor Tamas
 - Jenny Arenas Marin
 
-<hr>
 
-## Tech Stack
+Tech Stack
+-----
 
 <img src="https://image.ibb.co/czRdzx/la_reactnpm.png" width="100" alight="left"/>
 
@@ -32,9 +33,9 @@ __TDD__:
 - Enzyme
 - Cypress
 
-<hr>
 
-## Set-up & Installation :computer:
+How to use
+---------
 
 Open the Terminal (or iTerm) by pressing ⌘ and spacebar.
 
@@ -59,48 +60,90 @@ Run the server, and begin!
 $ npm run start-dev
 ```
 
-<hr>
-
-## User Stories :video_game:
+User Stories
+--------
 
 __Minimum Viable Product__:
+```
+As someone who travels often 
+So I can learn useful phrases 
+I want to be able to practice a language
+```
+__Version 2 Features__:
 
-- As someone who travels often, so I can learn useful phrases, I want to be able to practice a language.
+```
+As a user
+So I can decide what to practice 
+I want to be able to select a language and scenario
+```
+```
+As a user 
+So I can test my knowledge 
+I want to be able to choose an answer to a question
+```
+```
+As a user 
+So I can test my knowledge 
+I want to be able to choose an answer to a question
+```
+```
+As a user 
+So I can see how well I did 
+I want to be able to see my score
+```
 
-__Features__:
+__Version 3 Features__
+```
+As a user 
+So I can access the quizzes
+I want to be able to log in or sign up
+```
+```
+As a user 
+So I can end my session and keep my account secure
+I want to be able to log out
+```
+```
+As a user 
+So I am motivated to continue practicing 
+I want to be able to read a comment on how well I did
+```
+```
+As a user 
+So I can get an extra challenge 
+I want to be able to click a button to randomly choose a quiz for me
+```
+```
+As a user
+So I can recap my answers
+I want to see a breakdown of what I chose for each question
+```
 
-- As a user, so I can decide what to practice, I want to be able to select a language.
+Future Additions
+-------
 
-- As a traveller, so I can learn a language, I want to be able to choose an answer to a question.
+Due to the time constraints of the project, we had to prioritize the features we wanted to add. These user stories are for features we will look to add in the future:
 
-- As a user, so I can play the game, I want to be able to enter my details.
+```
+As a user 
+So I can improve my pronunciation 
+I want to be able to hear example audio
+```
+```
+As a user
+So I can satisfy my competitiveness
+I want to see a leaderboard
+```
+```
+As a user 
+So I can follow my story 
+I want to see the outcome of my chosen answer
+```
 
-- As a user, so I can keep track of my progress, I want to be able to see my score.
-
-__Extras__
-
-- As a user, so I can play the game, I want to be able to sign up.
-
-- As a user, so I can play the game, I want to able to sign in.
-
-- As a user, so I can enjoy my results, I want to be able to read a comment on how well I did.
-
-- As a user, so I can keep my account secure, I want to be able to sign out.
-
-- As a user, so I can play a random scenario, I want to be able to click a button to randomly choose a quiz for me.
-
-<hr>
-
-## Future Additions
-
-We have two user stories that we were not able to complete in time. Both of which we will look to
-integrate into the project after the completion date (12th April)
-
-- As a user, so I can improve my pronunciation, I want to be able to hear example audio.
-
-- As a user, so I can satisfy my competitiveness, I want to see a leaderboard.
-
-- As a user, so I can follow my story, I want to see the outcome of my answer.
+We will also look to refactor our code by:
+- extracting the questions and answers into a database 
+- ensuring all our methods follow the Single Responsibility Principle
+- DRYing up our code
 
 ## Screenshots of use!
 
